@@ -6,7 +6,7 @@ function ContactUs() {
     return (
         <div className="contact-us-page container">
             <section className="mw5 mw7-ns pa3 ph5-ns">
-                <h1 className="brandDarkPurple">Contact Us</h1>
+                <h1>Contact Us</h1>
             </section>
 
             <section>

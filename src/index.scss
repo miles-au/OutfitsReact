@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 // colors
-$BrandOpal: #93B7BE;
-$BrandCadet: #586F7C;
+$BrandOrange: #FFC34A;
+$BrandGrey: #333333;
+$BrandWhite: #FFF9EF;
 
-.brandOpal{
-  color: $BrandOpal
+.brandOrange{
+  color: $BrandOrange
 }
-.brandOpal-bg{
-  background-color: $BrandOpal
+.brandOrange-bg{
+  background-color: $BrandOrange
 }
 
-.brandCadet{
-  color: $BrandCadet
+.brandGrey{
+  color: $BrandGrey
 }
-.brandCadet-bg{
-  background-color: $BrandCadet
+.brandGrey-bg{
+  background-color: $BrandGrey
 }
 
 $defaultPadding: 10px 20px;
@@ -26,23 +27,23 @@ $defaultPadding: 10px 20px;
 // fonts
 h1, h2, h3, h4, h5, h6, p, a, ul, li, span{
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  color: $BrandGrey;
 }
 
 h1{
-  color: #ffffff;
+  color: $BrandGrey;
 }
 
 h2{
-  color: #ffffff;
+  color: $BrandGrey;
 }
 
 a, span{
-  color: $BrandOpal;
+  color: $BrandGrey;
 }
 
 body {
-  background-color: $BrandCadet;
+  background-color: $BrandOrange;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

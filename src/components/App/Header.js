@@ -6,8 +6,8 @@ const Header = ({ isLoggedIn }) => {
     return (
         <header>
             <div className="logo">
-                    <img className="logo-icon" src={require('./logo-transparent.png')} alt='Clothing Ruler Logo' />
-                    <h1 className="logo-text">Clothing Ruler</h1>
+                    <img className="logo-icon" src={require('./logo-transparent.png')} alt='Live Price Converter Logo' />
+                    <h1 className="logo-text">Live Price Converter</h1>
                 </div>
         </header>
     );
