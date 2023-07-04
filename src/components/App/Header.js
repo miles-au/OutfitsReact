@@ -7,7 +7,7 @@ const Header = ({ isLoggedIn }) => {
         <header>
             <div className="logo">
                     <img className="logo-icon" src={require('./logo-transparent.png')} alt='Live Price Converter Logo' />
-                    <h1 className="logo-text">Live Price Converter</h1>
+                    <h1 className="logo-text">BeforeYouGo</h1>
                 </div>
         </header>
     );

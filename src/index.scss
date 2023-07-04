@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
 
 // colors
-$BrandOrange: #FFC34A;
-$BrandGrey: #333333;
-$BrandWhite: #FFF9EF;
+$BrandBlue: #5396B0;
+$BrandGrey: #343434;
+$BrandWhite: #FFFFFF;
 
-.brandOrange{
-  color: $BrandOrange
+.BrandBlue{
+  color: $BrandBlue
 }
-.brandOrange-bg{
-  background-color: $BrandOrange
+.BrandBlue-bg{
+  background-color: $BrandBlue
 }
 
 .brandGrey{
@@ -25,17 +26,20 @@ $defaultPadding: 10px 20px;
 }
 
 // fonts
-h1, h2, h3, h4, h5, h6, p, a, ul, li, span{
+h3, h4, h5, h6, p, a, ul, li, span{
   font-family: 'Montserrat', sans-serif;
   color: $BrandGrey;
 }
 
 h1{
   color: $BrandGrey;
+  font-family: 'Gaegu', cursive;
+  font-weight: 700;
 }
 
 h2{
   color: $BrandGrey;
+  font-family: 'Gaegu', cursive;
 }
 
 a, span{
@@ -43,7 +47,7 @@ a, span{
 }
 
 body {
-  background-color: $BrandOrange;
+  background-color: $BrandBlue;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
