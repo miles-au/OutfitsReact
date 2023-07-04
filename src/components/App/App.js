@@ -1,7 +1,7 @@
 import './App.scss';
 
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import * as ROUTES from '../../constants/routes';
 
 import Header from './Header';
@@ -11,7 +11,7 @@ import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
 import Terms from '../Terms/Terms';
 import ContactUs from '../ContactUs/ContactUs';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: ROUTES.HOME,
     element: <HomePage />,
