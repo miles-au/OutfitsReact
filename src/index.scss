@@ -2,22 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
 
 // colors
-$BrandBlue: #5396B0;
-$BrandGrey: #343434;
+$BrandBlack: #000000;
 $BrandWhite: #FFFFFF;
 
-.BrandBlue{
-  color: $BrandBlue
+.brandBlack{
+  color: $BrandBlack
 }
-.BrandBlue-bg{
-  background-color: $BrandBlue
+.brandWhite-bg{
+  background-color: $BrandBlack
 }
 
-.brandGrey{
-  color: $BrandGrey
+.brandWhite{
+  color: $BrandWhite
 }
-.brandGrey-bg{
-  background-color: $BrandGrey
+.brandWhite-bg{
+  background-color: $BrandWhite
 }
 
 $defaultPadding: 10px 20px;
@@ -28,26 +27,26 @@ $defaultPadding: 10px 20px;
 // fonts
 h3, h4, h5, h6, p, a, ul, li, span{
   font-family: 'Montserrat', sans-serif;
-  color: $BrandGrey;
+  color: $BrandBlack;
 }
 
 h1{
-  color: $BrandGrey;
-  font-family: 'Gaegu', cursive;
+  color: $BrandBlack;
+  font-family: 'Montserrat', cursive;
   font-weight: 700;
 }
 
 h2{
-  color: $BrandGrey;
-  font-family: 'Gaegu', cursive;
+  color: $BrandBlack;
+  font-family: 'Montserrat', cursive;
 }
 
 a, span{
-  color: $BrandGrey;
+  color: $BrandBlack;
 }
 
 body {
-  background-color: $BrandBlue;
+  background-color: $BrandWhite;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
