@@ -7,7 +7,7 @@ const Header = ({ isLoggedIn }) => {
         <header>
             <div className="logo">
                     <img className="logo-icon" src={require('./logo.png')} alt='Before You Go Logo' />
-                    <h1 className="logo-text">BeforeYouGo</h1>
+                    <h1 className="logo-text">Outfits</h1>
                 </div>
         </header>
     );
